@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/thumbs';
+
+@layer base {
+  body {
+      @apply bg-[#141414] text-white !scrollbar-thin !scrollbar-track-black/10 !scrollbar-thumb-gray-900;
+  }
+
+  header {
+    @apply fixed top-0 z-50 flex w-full items-center justify-between px-4 py-4 transition-all lg:px-10 lg:py-6;
+  }
+}
+
+
+@layer components {
+  .headerLink {
+      @apply cursor-pointer text-sm font-light text-[#e5e5e5] transition duration-[.3s]
+      hover:text-[#b3b3b3];
+  }
+
+  .bannerButton {
+    @apply flex items-center gap-x-2 rounded px-5 py-1.5 text-sm font-semibold transition
+    hover:opacity-75 md:py-2.5 md:px-8 md:text-xl;
+  }
+
+}
+
+.swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  width: auto !important;  
+}
+
+.swiper-button-prev, .swiper-button-next {
+  color: #fff;
+}
