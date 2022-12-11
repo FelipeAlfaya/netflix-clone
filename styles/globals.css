@@ -29,6 +29,34 @@
 
 }
 
+@font-face {
+  font-family: 'Netflix sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./fonts/NetflixSans-Light.otf')
+}
+
+@font-face {
+  font-family: 'Netflix sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/NetflixSans-Medium.otf')
+}
+
+@font-face {
+  font-family: 'Netflix sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./fonts/NetflixSans-Regular.otf')
+}
+
+@font-face {
+  font-family: 'Netflix sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/NetflixSans-Bold.otf')
+}
+
 .swiper-slide {
   display: -webkit-box;
   display: -ms-flexbox;

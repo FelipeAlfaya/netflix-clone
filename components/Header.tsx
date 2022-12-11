@@ -51,8 +51,8 @@ function Header() {
         <BellIcon className='h-6 w-6' />
         <Link href='/account'>
           <img
-            src='https://rb.gy/g1pwyx'
-            className='cursor-pointer rounded'
+            src='/usericon.png'
+            className='cursor-pointer rounded w-8 h-8'
             alt=''
           />
         </Link>

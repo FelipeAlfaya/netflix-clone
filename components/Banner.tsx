@@ -33,7 +33,7 @@ function Banner({ netflixOriginals }: props) {
       <h1 className='text-2xl font-bold md:text-4xl lg:text-7xl '>
         {movie?.title || movie?.name || movie?.original_name}
       </h1>
-      <p className='max-w-xs text-shadow-md text-ws md:max-w-lg md:text-lg lg:max-w-2xl lg:text-2xl'>
+      <p className='max-w-xs text-shadow-md font-medium text-ws md:max-w-lg md:text-lg lg:max-w-2xl lg:text-2xl'>
         {movie?.overview}
       </p>
 
