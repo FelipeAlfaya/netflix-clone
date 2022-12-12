@@ -1,3 +1,7 @@
+Netflix Clone made in TypeScript NextJS and TailwindCSS. Besides Swiper API for carousel functions and TMDB API for movies fetch. 
+
+
+
 # Next.js + Tailwind CSS Example
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
